@@ -9,10 +9,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>健康診断</title>
+        <title>健康診断-BMI測定</title>
     </head>
     <body>
-            <h1>健康診断</h1>
+            <h1>健康診断-BMI測定</h1>
         <form method="POST" action="HealthCheck">               
                 身長：<input type="text" name="height">(cm)<br>
                 体重：<input type="text" name="weight">(kg)<br>

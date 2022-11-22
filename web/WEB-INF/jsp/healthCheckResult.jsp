@@ -10,7 +10,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>診断結果</title>
     </head>
     <body>
         <%
@@ -29,13 +29,13 @@
                 体系：-->
             </p>
             
-              <h1>スッキリ健康診断(EL式)</h1>    
+              <h1>健康診断(EL式)</h1>    
               <p>
                 身長：${health.height}<br>
                 体重：${health.weight}<br>
                 BMI：${health.bmiStr}<br>
                 
             </p>
-            <a href="HealthCheck">戻る</a>
+            <a href="/Test/HealthCheck">戻る</a>
     </body>
 </html>
